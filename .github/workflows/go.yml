@@ -11,6 +11,7 @@ jobs:
   build:
     runs-on: golang:alpine3.14
 
+    steps:
     - name: Build
       run: go build -v ./...
 
